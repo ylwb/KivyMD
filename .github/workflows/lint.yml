@@ -42,5 +42,3 @@ jobs:
         python -m pip install --upgrade setuptools wheel
         python -m pip install --upgrade pre-commit
 
-    - name: Check pre-commit
-      run: pre-commit run --all-files
